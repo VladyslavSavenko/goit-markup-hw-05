@@ -17,7 +17,7 @@
             <a class="logo" href=""><span class="logo-accent">Web</span>Studio</a>
         <nav class="navigation">
             <ul class="header-list">
-                <li class="header-item"><a href="./index.html" class="header-link">Студия</a></li>
+                <li class="header-item current"><a href="./index.html" class="header-link ">Студия</a></li>
                 <li class="header-item"><a href="./portfolio.html" class="header-link">Портфолио</a></li>
                 <li class="header-item"><a href="" class="header-link">Контакты</a></li>
             </ul> 
@@ -42,7 +42,7 @@
             <section class="title">
                 <div class="container">
                     <h1 class="title-text">Эффективные решения <br> для вашего бизнеса</h1>
-                    <button type="button" class="title-btn">Заказать услугу</button>
+                    <button type="button" class="title-btn" data-modal-open>Заказать услугу</button>
                 </div>
             </section>
         
@@ -98,12 +98,21 @@
                         <ul class="work-list">
                             <li class="work-item">
                                 <img src="./images/img1.jpg" width="370" alt="создание проектов">
+                                <div class="work-content">
+                                    <p class="work-text">Десктопные приложения</p>
+                                </div>
                             </li>
                             <li class="work-item">
                                 <img src="./images/img2.jpg" width="370" alt="оформление проектов">
+                                <div class="work-content">
+                                    <p class="work-text">Мобильные приложения</p>
+                                </div>
                             </li>
                             <li class="work-item">
                                 <img src="./images/img3.jpg" width="370" alt="дизайн проектов">
+                                <div class="work-content">
+                                    <p class="work-text">Дизайнерские решения</p>
+                                </div>
                             </li>
                         </ul>
                 </div>   
@@ -357,5 +366,15 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-close-btn" data-modal-close>
+                <svg class="modal-icon" width="11" height="11">
+                    <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
