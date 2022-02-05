@@ -236,13 +236,16 @@ a {
     color: #212121;
     margin-bottom: 50px;
 }
+.work-container{
+    position: relative;
+}
 .work-content{
     position: absolute;
     text-align: center;
     width: 370px;
     height: 70px;
     background-color: rgba(47, 48, 58, 0.8);
-    
+    bottom: 0;
 }
 .work-text{
     font-style: normal;
