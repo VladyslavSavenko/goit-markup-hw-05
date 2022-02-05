@@ -238,6 +238,8 @@ a {
 }
 .work-container{
     position: relative;
+    width: 370px;
+    height: 294px;
 }
 .work-content{
     position: absolute;
